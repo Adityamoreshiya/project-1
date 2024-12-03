@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Midline Media Solution</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    
+    <link href="img/customer-care.png" rel="icon">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+ 
+
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+   
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+   
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+   
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    
+
+
+
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img class="img" src="img/logo7.png" alt="">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link">Service</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Blog</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="team.html" class="dropdown-item active">Blog's</a>
+                        
+                        
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="contact.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get's Started<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    
+
+
+
+
+
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">Blog</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Blog</h6>
+                <h1 class="mb-5">Blog's</h1>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <!---- <svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                <symbol id="icon-bubble" viewBox="0 0 1024 1024">
+                    <title>bubble</title>
+                    <path class="path1" d="M512 224c8.832 0 16 7.168 16 16s-7.2 16-16 16c-170.464 0-320 89.728-320 192 0 8.832-7.168 16-16 16s-16-7.168-16-16c0-121.408 161.184-224 352-224zM512 64c-282.784 0-512 171.936-512 384 0 132.064 88.928 248.512 224.256 317.632 0 0.864-0.256 1.44-0.256 2.368 0 57.376-42.848 119.136-61.696 151.552 0.032 0 0.064 0 0.064 0-1.504 3.52-2.368 7.392-2.368 11.456 0 16 12.96 28.992 28.992 28.992 3.008 0 8.288-0.8 8.16-0.448 100-16.384 194.208-108.256 216.096-134.88 31.968 4.704 64.928 7.328 98.752 7.328 282.72 0 512-171.936 512-384s-229.248-384-512-384zM512 768c-29.344 0-59.456-2.24-89.472-6.624-3.104-0.512-6.208-0.672-9.28-0.672-19.008 0-37.216 8.448-49.472 23.36-13.696 16.672-52.672 53.888-98.72 81.248 12.48-28.64 22.24-60.736 22.912-93.824 0.192-2.048 0.288-4.128 0.288-5.888 0-24.064-13.472-46.048-34.88-56.992-118.592-60.544-189.376-157.984-189.376-260.608 0-176.448 200.96-320 448-320 246.976 0 448 143.552 448 320s-200.992 320-448 320z"></path>
+                </symbol>
+                <symbol id="icon-star" viewBox="0 0 1024 1024">
+                    <title>star</title>
+                    <path class="path1" d="M1020.192 401.824c-8.864-25.568-31.616-44.288-59.008-48.352l-266.432-39.616-115.808-240.448c-12.192-25.248-38.272-41.408-66.944-41.408s-54.752 16.16-66.944 41.408l-115.808 240.448-266.464 39.616c-27.36 4.064-50.112 22.784-58.944 48.352-8.8 25.632-2.144 53.856 17.184 73.12l195.264 194.944-45.28 270.432c-4.608 27.232 7.2 54.56 30.336 70.496 12.704 8.736 27.648 13.184 42.592 13.184 12.288 0 24.608-3.008 35.776-8.992l232.288-125.056 232.32 125.056c11.168 5.984 23.488 8.992 35.744 8.992 14.944 0 29.888-4.448 42.624-13.184 23.136-15.936 34.88-43.264 30.304-70.496l-45.312-270.432 195.328-194.944c19.296-19.296 25.92-47.52 17.184-73.12zM754.816 619.616c-16.384 16.32-23.808 39.328-20.064 61.888l45.312 270.432-232.32-124.992c-11.136-6.016-23.424-8.992-35.776-8.992-12.288 0-24.608 3.008-35.744 8.992l-232.32 124.992 45.312-270.432c3.776-22.56-3.648-45.568-20.032-61.888l-195.264-194.944 266.432-39.68c24.352-3.616 45.312-18.848 55.776-40.576l115.872-240.384 115.84 240.416c10.496 21.728 31.424 36.928 55.744 40.576l266.496 39.68-195.264 194.912z"></path>
+                </symbol>
+                </defs>
+                </svg>
+                
+                <div class="blog-container">
+                  
+                  <div class="blog-header">
+                    <div class="blog-cover">
+                      <div class="blog-author">
+                        <h3>Rohit Shah</h3>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="blog-body">
+                    <div class="blog-title">
+                      <h1><a href="#">I Like To Make Cool Things</a></h1>
+                    </div>
+                    <div class="blog-summary">
+                      <p>It seems that the more places I see and experience, the bigger I realize the world to be. The more I become aware of, the more I realize how relatively little I know of it, how many places I have still to go, how much more there is to learn <a href="https://www.youtube.com/watch?v=hANtM1vJvOo">breathe</a>. To that end, I need to freshen up my portfolio here because it does exactly the opposite. For the next month I will be working almost exclusively on my portfolio. Sounds like a lot of fun!</p>
+                    </div>
+                    <div class="blog-tags">
+                      <ul>
+                        <li><a href="#">instagram</a></li>
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">Best Call Center</a></li>
+                        <li><a href="#">twitter</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  <div class="blog-footer">
+                    <ul>
+                      <li class="published-date">2 days ago</li>
+                      <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">4</span></a></li>
+                      <li class="shares"><a href="#"><svg class="icon-star"><use xlink:href="#icon-star"></use></svg><span class="numero">1</span></a></li>
+                    </ul>
+                  </div>
+                
+                </div>
+                
+                <div class="blog-container">
+                  
+                  <div class="blog-header">
+                    <div class="blog-author--no-cover">
+                        <h3>Mukesh Ingole</h3>
+                    </div>
+                  </div>
+                
+                  <div class="blog-body">
+                    <div class="blog-title">
+                      <h1><a href="#">This Post Has No Cover Image</a></h1>
+                    </div>
+                    <div class="blog-summary">
+                      <p>Travel changes you. As you move through this life and this world, you change things slightly, you leave marks behind, however small. And in return, life — and travel — leaves marks on you.</p>
+                    </div>
+                    <div class="blog-tags">
+                      <ul>
+                        <li><a href="#">Customer Support</a></li>
+                        <li><a href="#">instagram</a></li>
+                        <li><a href="#">twitter</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  <div class="blog-footer">
+                    <ul>
+                      <li class="published-date">12 days ago</li>
+                      <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">8</span></a></li>
+                      <li class="shares"><a href="#"><svg class="icon-star"><use xlink:href="#icon-star"></use></svg><span class="numero">3</span></a></li>
+                    </ul>
+                  </div>
+                
+                </div>
+                
+                <div class="blog-container">
+                  
+                  <div class="blog-header">
+                    <div class="blog-author--no-cover">
+                        <h3>Russ Beye</h3>
+                    </div>
+                  </div>
+                
+                  <div class="blog-body">
+                      <video class="video-body" controls poster="http://artbees.net/themes/jupiter-demo/wp-content/uploads/2013/10/home-vid-img.jpg" id="bgvid">
+                        <source src="http://artbees.net/themes/jupiter-demo/wp-content/uploads/2013/10/homepage.webm" type="video/webm">
+                        <source src="http://artbees.net/themes/jupiter-demo/wp-content/uploads/2013/10/shutterstock_v3702740_4.m4v" type="video/mp4">
+                      </video>
+                    <div class="blog-title">
+                      <h1><a href="#">A Video Based Blog Post</a></h1>
+                    </div>
+                    <div class="blog-tags">
+                      <ul>
+                        <li><a href="#">video</a></li>
+                        <li><a href="#">embed</a></li>
+                        <li><a href="#">what</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  <div class="blog-footer">
+                    <ul>
+                      <li class="published-date">1 month ago</li>
+                      <li class="comments"><a href="#"><svg class="icon-bubble"><use xlink:href="#icon-bubble"></use></svg><span class="numero">12</span></a></li>
+                      <li class="shares"><a href="#"><svg class="icon-star"><use xlink:href="#icon-star"></use></svg><span class="numero">6</span></a></li>
+                    </ul>
+                  </div>
+                
+                </div>
+                
+                <script type="text/javascript" src="//use.typekit.net/wtt0gtr.js"></script>
+                <script type="text/javascript">try{Typekit.load();}catch(e){}</script>--->
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               <!----- <section class="section dark">
+                    <ul class="card-list">
+                      <li>
+                        <div class="card">
+                          <div class="visual">
+                            <img
+                              class="card-image"
+                              src="https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/open-props-v2-adaptive-cards/images/img-1.avif"
+                              alt="Skyscraper in fog"
+                              width="300"
+                              height="180"
+                            />
+                          </div>
+                          <div class="content">
+                            <div class="meta">
+                              <div class="card-header">
+                                <div class="category">TECHNOLOGY</div>
+                                <h3 class="title">Digital Transformation</h3>
+                              </div>
+                              <p class="desc">
+                                Leveraging cutting-edge AI and cloud computing to drive global
+                                digital transformation.
+                              </p>
+                            </div>
+              
+                            <div class="controls">
+                              <a href="#" class="button-link primary">
+                                Learn More
+                                <svg
+                                  width="18"
+                                  height="10"
+                                  viewBox="0 0 18 10"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M13.1667 1.6665L16.5 4.99984M16.5 4.99984L13.1667 8.33317M16.5 4.99984L1.5 4.99984"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="card">
+                          <div class="visual">
+                            <img
+                              class="card-image"
+                              src="https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/open-props-v2-adaptive-cards/images/img-2.avif"
+                              alt="People working on computers in a modern office"
+                              width="300"
+                              height="180"
+                            />
+                          </div>
+                          <div class="content">
+                            <div class="meta">
+                              <div class="card-header">
+                                <div class="category">TECH INDUSTRY</div>
+                                <h3 class="title">Innovating Work Environments</h3>
+                              </div>
+                              <p class="desc">
+                                Discover how our technologies create modern workspaces,
+                                enhancing productivity, and fostering collaboration.
+                              </p>
+                            </div>
+              
+                            <div class="controls">
+                              <a href="#" class="button-link primary">
+                                Learn More
+                                <svg
+                                  width="18"
+                                  height="10"
+                                  viewBox="0 0 18 10"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M13.1667 1.6665L16.5 4.99984M16.5 4.99984L13.1667 8.33317M16.5 4.99984L1.5 4.99984"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="card">
+                          <div class="visual">
+                            <img
+                              class="card-image"
+                              src="https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/open-props-v2-adaptive-cards/images/img-3.avif"
+                              alt="A person working on a laptop"
+                              width="300"
+                              height="180"
+                            />
+                          </div>
+                          <div class="content">
+                            <div class="meta">
+                              <div class="card-header">
+                                <div class="category">TECH INFRASTRUCTURE</div>
+                                <h3 class="title">Streamlining Operations</h3>
+                              </div>
+                              <p class="desc">
+                                Optimize operations with our tech infrastructure solutions,
+                                ensuring seamless performance and reliability.
+                              </p>
+                            </div>
+              
+                            <div class="controls">
+                              <a href="#" class="button-link primary">
+                                Learn More
+                                <svg
+                                  width="18"
+                                  height="10"
+                                  viewBox="0 0 18 10"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M13.1667 1.6665L16.5 4.99984M16.5 4.99984L13.1667 8.33317M16.5 4.99984L1.5 4.99984"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </section>
+                  <section class="section light">
+                    <ul class="card-list">
+                      <li>
+                        <div class="card">
+                          <div class="visual">
+                            <img
+                              class="card-image"
+                              src="https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/open-props-v2-adaptive-cards/images/img-1.avif"
+                              alt="Skyscraper in fog"
+                              width="300"
+                              height="180"
+                            />
+                          </div>
+                          <div class="content">
+                            <div class="meta">
+                              <div class="card-header">
+                                <div class="category">TECHNOLOGY</div>
+                                <h3 class="title">Digital Transformation</h3>
+                              </div>
+                              <p class="desc">
+                                Leveraging cutting-edge AI and cloud computing to drive global
+                                digital transformation.
+                              </p>
+                            </div>
+              
+                            <div class="controls">
+                              <a href="about.html" class="button-link primary">
+                                Learn More
+                                <svg
+                                  width="18"
+                                  height="10"
+                                  viewBox="0 0 18 10"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M13.1667 1.6665L16.5 4.99984M16.5 4.99984L13.1667 8.33317M16.5 4.99984L1.5 4.99984"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="card">
+                          <div class="visual">
+                            <img
+                              class="card-image"
+                              src="https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/open-props-v2-adaptive-cards/images/img-2.avif"
+                              alt="People working on computers in a modern office"
+                              width="300"
+                              height="180"
+                            />
+                          </div>
+                          <div class="content">
+                            <div class="meta">
+                              <div class="card-header">
+                                <div class="category">TECH INDUSTRY</div>
+                                <h3 class="title">Innovating Work Environments</h3>
+                              </div>
+                              <p class="desc">
+                                Discover how our technologies create modern workspaces,
+                                enhancing productivity, and fostering collaboration.
+                              </p>
+                            </div>
+              
+                            <div class="controls">
+                              <a href="#" class="button-link primary">
+                                Learn More
+                                <svg
+                                  width="18"
+                                  height="10"
+                                  viewBox="0 0 18 10"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M13.1667 1.6665L16.5 4.99984M16.5 4.99984L13.1667 8.33317M16.5 4.99984L1.5 4.99984"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="card">
+                          <div class="visual">
+                            <img
+                              class="card-image"
+                              src="https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/open-props-v2-adaptive-cards/images/img-3.avif"
+                              alt="A person working on a laptop"
+                              width="300"
+                              height="180"
+                            />
+                          </div>
+                          <div class="content">
+                            <div class="meta">
+                              <div class="card-header">
+                                <div class="category">TECH INFRASTRUCTURE</div>
+                                <h3 class="title">Streamlining Operations</h3>
+                              </div>
+                              <p class="desc">
+                                Optimize operations with our tech infrastructure solutions,
+                                ensuring seamless performance and reliability.
+                              </p>
+                            </div>
+              
+                            <div class="controls">
+                              <a href="#" class="button-link primary">
+                                Learn More
+                                <svg
+                                  width="18"
+                                  height="10"
+                                  viewBox="0 0 18 10"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M13.1667 1.6665L16.5 4.99984M16.5 4.99984L13.1667 8.33317M16.5 4.99984L1.5 4.99984"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </section>-->
+
+
+
+
+
+
+
+
+                 <!---- <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+                  <section class="text-gray-600 body-font">
+                    <div class="container px-5 py-24 mx-auto">
+                      <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/3">
+                          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/staffing.jpg" alt="blog">
+                            <div class="p-6">
+                              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Staffing </h2>
+                              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Staffing for Startups: Building Your Team from the Ground Up</h1>
+                              <p class="leading-relaxed mb-3">Building a successful startup involves more than just having a great idea or innovative product. The...</p>
+                              <div class="flex items-center flex-wrap ">
+                                <a href="blogdetailes.html"class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                  </svg>
+                                </a>
+                                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                  </svg>1.2K
+                                </span>
+                                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                                  </svg>6
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="p-4 md:w-1/3">
+                          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/digi.jpg" alt="blog">
+                            <div class="p-6">
+                              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Digital Marketing</h2>
+                              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Will Digital Marketing Ever Rule the World</h1>
+                              <p class="leading-relaxed mb-3">In the rapidly evolving landscape of global commerce, digital marketing has emerged as a formidable ...</p>
+                              <div class="flex items-center flex-wrap">
+                                <a href="blogdetailes.html"class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ">Learn More
+                                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                  </svg>
+                                </a>
+                                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                  </svg>1.2K
+                                </span>
+                                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                                  </svg>6
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="p-4 md:w-1/3">
+                          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/eliora blog 01.jpg" alt="blog">
+                            <div class="p-6">
+                              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Content Marketing</h2>
+                              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Content Marketing Strategies: From Planning to Publication</h1>
+                              <p class="leading-relaxed mb-3">Content marketing has become a leading business strategy. As companies increasingly recognize the v...
+
+                              </p>
+                              <div class="flex items-center flex-wrap ">
+                                <a href="blogdetailes.html" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                  </svg>
+                                </a>
+                                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                  </svg>1.2K
+                                </span>
+                                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                                  </svg>6
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+
+
+
+                  <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/eliora 97.jpg" alt="blog">
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Logo Design</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Logo Design Cost India How Much Does Logo Designing Cost in 2024</h1>
+            <p class="leading-relaxed mb-3">Logo design plays a pivotal role in establishing a brand's identity. A well-designed logo is more th...</p>
+            <div class="flex items-center flex-wrap ">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+              </span>
+              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>6
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/eliora blog03.jpg" alt="blog">
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Marketing and Business
+            </h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Benefits of Blogging for Marketing and Business</h1>
+            <p class="leading-relaxed mb-3">Online presence is of utmost use, businesses must continuously evolve their marketing strategies to ...</p>
+            <div class="flex items-center flex-wrap">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+              </span>
+              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>6
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/eliora 96.jpg" alt="blog">
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Ethical Hacking</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Ethical Hacking: Can It Really Protect Your Business</h1>
+            <p class="leading-relaxed mb-3">Businesses use technology extensively to store data, run operations, and communicate with customers ...</p>
+            <div class="flex items-center flex-wrap ">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+              </span>
+              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>6
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>-->
+                  
+
+
+
+<!--Courses Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+           
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/staffing.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="blog2.html" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read</a>
+                                <a href="blog2.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">More</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">Staffing</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Staffing for Startups: Building Your Team from the Ground Up</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Rohit Sharma</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>9 Hours ago</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>3k Veiw</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/QA.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="blog3.html" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read</a>
+                                <a href="blog3.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;"> More</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">Quality Calling</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">What is QA in a Call Center, and Why is it Important?</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Siddarth Mishra</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>10 days ago</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>5k Veiw</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/eliora0030.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="404.html" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read </a>
+                                <a href="404.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">More</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">Content Marketing</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Content Marketing Strategies: From Planning to Publication</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Virat Singhania</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>11 days ago</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>7k Veiw</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <div class="container-xxl py-5">
+        <div class="container">
+            
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/twins.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="404.html" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read </a>
+                                <a href="404.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">More</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">Digital Twins</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">3 Things Businesses Need to Know About Digital Twins</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Jatin Sharma</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>22 dyas ago</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>22k veiw</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/Ethical.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="404.html" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read </a>
+                                <a href="404.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">More</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">Ethical AI</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Ethical AI: Balancing Innovation with Responsibility in the IT Sector</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Ritik hawale</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1 Month ago</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30k Veiw</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/social.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="404.html" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read </a>
+                                <a href="404.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">More</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">Social Media Advertising</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Social Media Advertising: Tips for Effective Campaigns</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Mise</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>21 days ago</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>24k Veiw</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+
+
+
+            
+            <!--<div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img1.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Dior Beck</h5>
+                            <small>Director</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img2.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Rishabh Gupta</h5>
+                            <small>Administrative director</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img3.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Natalie Hopkins</h5>
+                            <small>Office manager</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img4.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Molly Kent</h5>
+                            <small>Facilities manager.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img5.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Ailani Caldwell</h5>
+                            <small>Branch manager</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img6.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Lilian Pittman</h5>
+                            <small>Risk manager</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img7.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Mark Dickson</h5>
+                            <small>Program manager</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/img8.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Carson Vargas</h5>
+                            <small>Business administrator</small>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="contact_button">
+  <div id="contact_button_child" style="visibility: hidden;">
+    <a target="_blank" href="https://www.google.com/maps/place/Midline+Media+Solution/@21.115696,79.038042,16z/data=!4m6!3m5!1s0x9fc666f94677e53:0x325fefc473b236c3!8m2!3d21.1156959!4d79.0380419!16s%2Fg%2F11vj9wrw_w?hl=en&entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D" class="contact_button_map">
+      <img width="30" height="30" alt="gmap"
+        src="img/google-maps.png">
+    </a>
+    <a target="_blank" href="mailto: sales@midlinesmedia.com" class="contact_button_mail">
+      <img width="30" height="30" alt="mail"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC2UlEQVR4nO2YbWhOYRjHz4yxqdWMvK5G1vhCyry0hqQoLfFBFELSPsjK1L4un5R8GD4gSilvJYqUfCBaWO2T15BS8v6yedvDbD/ddd260s7ZOefxnOecp/Or9Tx7znVf93Xd3ee6/vftOCkpKSkp+YACwaGAEsmQfDImkYXAe5LLJ2CxfU+mA09IHs+BmTaJWfI5HugkOXSamP/mAHwFVsoPo4CzxJ+LQJnEvAzotlXrN9AkD4qBA8SXo8BwiXUL8Guw8tsODBOjZqCf+DAAtElsReb7UH3knNliMmA18J38kwHWSUwlwEm/DbEDGCsD5wNvyR8fgQaJpQK4HrSzPwVqxME04DHR8wyolRimAg/DSpQPQL04GgPcJDpuA+Nk7jrgTbZaqxdYKw5HAqfIPeeBUplzlZ/31K9oNOV5p1vF+M+0q8q5HejLhfrVk2zzO0mAxdoRdrHCyPgLqqsuB76QPd+ARqUuzkR1HrmrdM5s4CXheQ3MFV+VwK2oD1ZdRs5IANVepdEDM6ZaSaOusMGETeS+6jFFqlndCODD2Fb846MGuBdVIkZ5lqttZVZ1vZd8GEIGrZFmWyf/lwIncpmIqVC71eptBH7IMyMuW1TF2eMiOPvlmfXRouyMr03qUmRXkKroN5F3wFKZYARw0MXukHpvFgGX5Rht/i4pzVQstm4+SsRuiV+d5/g8iVWJ44k+qso1YLLH9dMUsfGiA5ik7O9km8gxtZfrgVf44zOwD5gne75MVPR+oCdAWW5Q0uhwmESM/m9Wq2ikwk+ipw9oVXFscNNdgyVimtsC1WWPk39OA6Mlpjlye+KZiJHpE2RAVcxuVR7Zqx9RAFfdEjliKpIYrpCTWdzoMcdvVfnabPl25LyxWfWAVlGicWUA2KtUeKO9DrIXdOXStZPCFSVxZthqUAs8IHm8sNLGHiW7SS69wFZH9lzicSgQHAoEJyUlJSXFyQN/AKRYWuwUHEYdAAAAAElFTkSuQmCC">
+    </a>
+    <a target="_blank" href="https://m.facebook.com/61553909578496" class="contact_button_facebook">
+      <img width="30" height="30" alt="facebook"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABfElEQVR4nO2WTStEURiAL2WBbJTFbMwCiVLClJ2NX2DlF7BV0yR/QMMOO39AYS1ZyHczRikpX6HM5BdIg3h06shN57733HvPlMU8dTfnvO/7nM7pvPd4Xp3/BtADZIEd4BZ40d+NHlNz3S6F/cAm8EU4KmYD6EsqnQLeiM4HMBtXukJylqNK53BHzlaaAT4dilWtYRvxIe45Bhok6Si1IyOJFy2LbAOPwvyFYSwviU8tpLtAM5A2yEvAJPBgyCtI4ucQaRFo88V3AvdARd/5duA8ILciiash26cKNwEpX04KaAFagRMhvyqJywFJd1owDlzquLQvTy1mK2S3ypLYtOInYALY/zN+BXQAjcAa4RQk8YLh8heFhnIGrGJHXhIPUjtGAsU17Fx7olSLB4B3h1J1TEOhYi3PORRnraQ++bwD6VIk6Q8JhKoRTXtxITrqzbUO9MaWKgyFD3SHUk3lVb8yr/Xfagbo8lzAL0eqXTopaoO6f8CYVXAdT+YbNF0J+VU71hcAAAAASUVORK5CYII=">
+    </a>
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=+91 8830826434&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202" class="contact_button_whatsapp">
+      <img width="30" height="30" alt="whatsapp"
+        src="img/logo.png">
+    </a>
+  </div>
+  <a href="tel:+84946906363" id="contact_button_phone" style="visibility: hidden;">
+    <img width="30" height="30" alt="phone"
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACEElEQVR4nO3ZzYtNYRzA8Z/XUWJDGKJk5WUpWUrsyEYUNanBn6D8BbLDCv+BxcR4jSxQkxoLRnmLImXl5UZIqI9OcxY3Zu7c59zuuc9kPn/B/fac+5zn+Z2IGTN6B3swii94gK0xnWAezvpXA6tiOsAiXDe5a5E7rMQTUxuIXGE5XmjPJ/RHbjAfI9IMR25wXDUHIyd4UzHkA1ZELvBVdUORC7zUmf2RAwx1GPI8coCjHYZ8jxxgGX53EHI/coHbHYQM5HbSreIRZkcuMAtjFUJ2Rm6wLzHicuTI+KrcSwgZjFxhI34mnILXRa5wMmFVHmJh5Ah95Q9sV7F190WOsAHfEmIuYm7kCEekOV9sGJEjE09TWjkVGY+G7iTGnM5yZYwPJl5VeMzmRG6wBm8TYy5hQeQGm/AxMebmRO+ZYrVwqBzF/sKz4ohUZ8yWchacYqz5BIDtLd5TV4pBYV0xO/AjMaY4zgziapvTmQN13l9SY1T4j/XXEbOtwmOWqlHMFOqI2Yz3uu8GVtdx9H9XQ0yj2Gy6HbO2wkuzitGuhjSNlVJumFV87npI0yeKc10MGaklpCnocOJ9pl27ag0pY9Yn3jSncqb2iL+uzScSBhqttt/e30DLLfquah5jcWQ2N9ub+Lg9Le5DkaMyaDdulUf4yRRb+dKYDrCkPBVfKD4YlZ8BX+NYcc3u9e+b8d/6A8BzVur0abPMAAAAAElFTkSuQmCC">
+      +91 8830826434
+  </a>
+  <a href="#contact_button_main" id="contact_button_main">
+    <img width="30" height="30" alt="contact-button"
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABoUlEQVR4nO3WO2sVQRTA8RssVILYWgSMaSReEGIpYpFEi1QKfgFrwSf4AfwUFhqwt7ARa59RBCuFGLUQEdRYXOH6QMWfjJxikd17Zx+RFP5hmt1z5j+PnbPT6/1ns4DdOIdbeIUhPuM1buICproUTmEZ340nxVzDrrbSJXxUn5Sz1FR6HD8bSIuzP1FXOoev2vMF/VzpBB7ojoe54qO6Zz5HvLwB4ss54mcNOh6kznEMM5iMNhMf6cUc8acawh+4hJ1Z+9iR+B0OFvKOxDatRUVLle05rmJxpDSBp5lLOxfxe3AvI+cOpntVxAjHcTJi+1iXzwfMVonnxyQ/ibO+HS/VZw3bysSp07sjEs9E3HnNOVs1636UuzL+lEA8aiFeGVfBvpUk7Whw7P5mUCmOzldKkibj3WBDxFisSJrtYKnvV0n3430hMEkO4xQORUy6BjXldJU4ffJvcD1q7URJTDpOLxpIV7G11wbsq1lAhtjbSlqQT+N2pvgXFjoRFwawgCuxlMNoq/HscUG+jgOdykcMaku6+OEG3qa/1j8Rb0p+A80BMS4AyKiHAAAAAElFTkSuQmCC">
+  </a>
+</div>
+
+<style>
+  #contact_button {
+    position: fixed;
+    z-index: 9999;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  #contact_button a {
+    display: flex;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 10px 0px rgb(0, 0, 0, 0.5);
+  }
+
+  #contact_button img {
+    margin: auto;
+  }
+
+  #contact_button #contact_button_child a {
+    margin-bottom: 10px;
+  }
+
+  @keyframes wave {
+    0% {
+      box-shadow: 0 0 0px 0px rgba(255, 121, 121, 0.5);
+    }
+
+    100% {
+      box-shadow: 0 0 0px 10px rgba(255, 121, 121, 0.271);
+    }
+  }
+
+  #contact_button_main {
+    background-color: #5dd7ef;
+    animation: wave 1s linear infinite;
+  }
+
+  .contact_button_zalo {
+    background-color: #00B2FF;
+  }
+
+  .contact_button_map {
+    background-color: #fff;
+  }
+
+  .contact_button_mail {
+    background-color: #eabe0f;
+  }
+
+  .contact_button_facebook {
+    background-color: #4267B2;
+  }
+
+  #contact_button #contact_button_phone {
+    background-color: #4cc6c2;
+    color: #eee;
+    font-size: 18px;
+    text-decoration: unset;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0px 10px;
+    position: fixed;
+    right: 80px;
+    bottom: 20px;
+    width: auto;
+    height: 50px;
+    font-weight: 900;
+  }
+
+  #contact_button #contact_button_phone img {
+    margin-right: 5px;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .open_contact {
+    visibility: visible !important;
+    animation: fadeIn 1s;
+  }
+</style>
+
+<script>
+  document.getElementById("contact_button_main").addEventListener("click", function (event) {
+    event.preventDefault();
+    document.getElementById("contact_button_child").classList.toggle('open_contact');
+    document.getElementById("contact_button_phone").classList.toggle('open_contact');
+  });
+</script>
+
+
+    
+    
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <img class="img-1" src="img/logo1.png" alt="">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3"> Newsletter</h4>
+                    <p class="te-text">Midline Media Solutions was founded in 2020. Since then, we have evolved into a versatile and
+                        forward-thinking organization dedicated to empowering businesses across various industries. Our team consists of talented professionals from diverse backgrounds, 
+                        enabling us to provide comprehensive solutions tailored to meet the unique needs of our clients.</p>
+                   
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Opposite Bank of Baroda, Ward Number 3, Parsodi, Trimurtee Nagar, Nagpur, Maharashtra 440022</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 8830826434</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>sales@midlinesmedia.com</p>
+                    <div class="d-flex pt-2">
+                      <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/Midline_Media/?fbclid=IwZXh0bgNhZW0CMTAAAR2sGy0DK4WHFB2VDwJrESymcML9jjlHIDWfJEp9Nuj8BHvGjYGJG31a-Rg_aem_AeD0eOtE0Hju9chzbL_egQSUE0dIAyWmoECCY-KkYV2WXO1TEuy7fgWSktv2uyzrOrYP2rTQNje3VUWfdB2iWsfD"><i class="fab fa-instagram"></i></a>
+                      <a class="btn btn-outline-light btn-social" href="https://m.facebook.com/61553909578496"><i class="fab fa-facebook-f"></i></a>
+                      <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/midline-media-solution-38a5051a4/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="courses.html">Service</a>
+                    
+                    <a class="btn btn-link" href="contact.html">FAQs & Help</a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                      <span>© Copyright 2024. All Rights Reserved | Design &amp; developed by <a href="https://www.elioratechno.com/" target="_blank">Eliora Technology Pvt Ltd.
+                      </a></span>
+
+                        
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+
+
+
+
+    <!--<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>-->
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

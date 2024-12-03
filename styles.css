@@ -1,0 +1,313 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+:root{
+    --bgc-bullet: #4ae7f2;
+    --font-main: 'Montserrat', sans-serif;
+    --font-head: 'IBM Plex Serif', serif;
+    --bgc-checkbox: #760c1c;
+}
+body{
+   margin: 0;
+   padding: 0;
+   font-family: var(--font-main);
+   background-color: #fff;
+}
+
+h1{
+    font-family: var(--font-head);
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+    box-shadow: 0px 0px 20px var(--bgc-bullet);
+  margin: 1rem 0;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    border:2px solid #555;
+}
+input[type='checkbox']:checked {
+    background: var(--bgc-checkbox);
+}
+
+label,p{
+    line-height: 1.5rem;
+
+}
+
+.sidebar{
+    display: none;
+}
+
+
+
+
+
+
+*,
+* ::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  color: #333333;
+  letter-spacing: 0.01rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.container {
+  max-width: 80rem;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.container .deco {
+  height: 3rem;
+  width: 23rem;
+  filter: brightness(120%);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  width: 100%;
+}
+.cards-container {
+  padding: 2rem;
+}
+
+.card-box {
+  display: flex;
+  flex-flow: column;
+  width: 36.3rem;
+  background-color: white;
+  font-size: 0.92rem;
+  box-shadow: 0px 3px 4px gray;
+}
+
+.card-img {
+  height: 23rem;
+}
+
+.card-data,
+.card-title,
+.card-description {
+  padding: 0 1.5rem;
+}
+
+.card-data {
+  padding-top: 2rem;
+  padding-bottom: 1.3rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.card-data p {
+  display: inline-block;
+}
+
+.text-right {
+  margin-left: 9.4rem;
+  margin-right: 1rem;
+}
+
+.autor {
+  font-weight: bold;
+}
+
+.card-title {
+  display: block;
+  margin: 0;
+  margin-bottom: 1.3rem;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.card-title:hover {
+  background-color: #fff;
+}
+
+.card-description {
+  font-size: 1.15rem;
+  line-height: 1.7rem;
+  padding-bottom: 2rem;
+}
+
+@media all and (max-width: 1200px) {
+  .card-box {
+    width: 30rem;
+  }
+
+  .container {
+    padding: 1%;
+  }
+
+  .card-data {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text-right {
+    margin: 0;
+  }
+
+  .card-img {
+    height: 20rem;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .flex-container {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  .card-box {
+    width: 100%;
+  }
+
+  .card-img {
+    height: 27rem;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .card-img {
+    height: 20rem;
+  }
+
+  .data-text {
+    font-size: 0.85rem;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-description {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------Instructions--------------------------------- */
+ ol {
+   list-style: none;
+   counter-reset: item;
+ }
+ li {
+   counter-increment: item;
+   margin: 0 0 2em 1em;
+ }
+ li:before {
+   margin-right: 3em;
+   content: counter(item);
+   background: var(--bgc-bullet);
+   border-radius: 100%;
+   color: white;
+   width: 2em;
+   height: 2em;
+   border-radius: 10px;
+   position: absolute;
+   left: 5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+p{
+  display: inline;
+  
+}
+@media (min-width:700px) {
+    body{
+        font-size: 1.25rem;
+    }
+    
+    .container{
+        width: 80%;
+    }
+    .section-1 p,
+    .section-2-content,
+    .section-3{
+        width: 60%;
+    }
+
+    .section-2{
+        padding: 1.5em 0;
+        display: flex;
+        justify-content: space-between;
+    }
+   
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 2em;
+        height: 50vh;
+        box-shadow: 0px 0px 20px var(--bgc-bullet);
+        border-radius: 12px;
+        background-color: var(--bgc-checkbox);
+        color: white;
+        font-weight: bold;
+    }
+    .sidebar p{
+        margin: 0;
+        font-size: 1rem;
+    }
+    .sidebar div{
+        padding: 1.5em ;
+        font-size: .75rem;
+    }
+}
